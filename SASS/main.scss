@@ -1,0 +1,13 @@
+@import './abstracts/variables';
+@import './abstracts/mixin';
+@import './base/reset';
+@import './component/footer';
+@import './component/nav';
+@import './pages/home';
+@import './pages/about';
+@import './pages/services';
+@import './component/responsive';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

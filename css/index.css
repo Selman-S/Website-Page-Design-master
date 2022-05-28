@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #35424a;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid #a9508b;
+}
+.navbar .left-navbar h1 {
+  margin: 25px;
+  line-height: 45px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar .left-navbar h1 span {
+  color: #a9508b;
+}
+.navbar .right-navbar {
+  margin: 25px;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul li {
+  padding: 0 2rem;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */

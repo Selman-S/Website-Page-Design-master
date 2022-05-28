@@ -1,0 +1,34 @@
+.navbar {
+    background-color: $bgColor;
+    color:$secondaryColor;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px solid $primaryColor;
+    
+    
+    .left-navbar {
+        h1 {
+            margin:25px;
+            line-height: 45px;
+            font-size: 30px;
+            font-weight: 700;
+            span {
+                color:$primaryColor;
+            }
+        }
+    }
+    .right-navbar {
+        margin:25px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        li {
+            padding: 0 2rem;
+            a {
+        
+            }
+        }
+    }
+    
+}
