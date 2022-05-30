@@ -1,0 +1,23 @@
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    height:110px;
+    align-items: center;
+    background-color:#35424A ;
+    padding: 0 15px;
+}
+#newsletter {
+    color:#fff;
+    font-weight: 700;
+}
+#email {
+    padding:5px;
+    width:200px;
+  
+}
+#submit {
+    background-color: #F16529;
+    color:#fff;
+    padding:7px ;
+    border:none;
+}

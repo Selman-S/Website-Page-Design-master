@@ -2,33 +2,43 @@
     background-color: $bgColor;
     color:$secondaryColor;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 4px solid $primaryColor;
+    padding: 15PX;
+    height: 100px;
+
     
     
     .left-navbar {
         h1 {
-            margin:25px;
-            line-height: 45px;
-            font-size: 30px;
+     
+          
+            font-size: 2rem;
             font-weight: 700;
             span {
                 color:$primaryColor;
             }
         }
     }
-    .right-navbar {
-        margin:25px;
+    .active {
+        color:$primaryColor;
     }
-    ul {
-        list-style-type: none;
-        display: flex;
-        li {
-            padding: 0 2rem;
-            a {
-        
+    .right-navbar {
+     
+        ul {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin-left: 40px;
+                
+                a {
+                    color: $secondaryColor;
+                    text-decoration: none;
+                    text-transform:uppercase;
+                }
             }
-        }
     }
     
+}
 }
