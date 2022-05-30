@@ -1,0 +1,49 @@
+.services-container {
+    display: flex;
+    padding:1rem;
+    min-height:650px;
+    #name {
+        font-size: 1.1rem;
+        margin-left: 5px;
+    }
+}
+.description {
+    background-color:$bgCard ;
+    padding:10px;
+    margin:5px;
+    border:1px solid rgb(175, 175, 175);
+    margin-right: 40px;
+    font-size: 15px;
+   
+    line-height: 1.6rem;
+    span {
+        display: block;
+        margin:10px 0;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}
+
+.dark {
+    background-color: $bgColor;
+    color:$secondaryColor;
+    padding:1rem;
+    height:max-content;
+    width:350px;
+    
+    p {
+        margin:25px 0;
+        font-weight: bold;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        margin-bottom: 20px;
+        #email, #form-name , #message {
+            padding:5px;
+            width:90%;
+        }
+    }
+    
+}

@@ -27,7 +27,7 @@ footer img {
   align-items: center;
   border-bottom: 4px solid #a9508b;
   padding: 15PX;
-  height: 100px;
+  min-height: 100px;
 }
 .navbar .left-navbar h1 {
   font-size: 2rem;
@@ -54,7 +54,9 @@ footer img {
 
 .logo {
   display: flex;
-  height: 400px;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -74,7 +76,7 @@ footer img {
 .subscribe {
   display: flex;
   justify-content: space-between;
-  height: 110px;
+  min-height: 110px;
   align-items: center;
   background-color: #35424A;
   padding: 0 15px;
@@ -100,7 +102,7 @@ footer img {
 .about-us {
   display: flex;
   padding: 20px 30px;
-  height: 700px;
+  min-height: 700px;
 }
 .about-us .about {
   padding: 20px 30px;
@@ -136,6 +138,72 @@ footer img {
   margin-bottom: 20px;
 }
 
+.services-container {
+  display: flex;
+  padding: 1rem;
+  min-height: 650px;
+}
+.services-container #name {
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+
+.description {
+  background-color: #e6e6e6;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgb(175, 175, 175);
+  margin-right: 40px;
+  font-size: 15px;
+  line-height: 1.6rem;
+}
+.description span {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.dark {
+  background-color: #35424a;
+  color: #fff;
+  padding: 1rem;
+  height: max-content;
+  width: 350px;
+}
+.dark p {
+  margin: 25px 0;
+  font-weight: bold;
+}
+.dark form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.dark form #email, .dark form #form-name, .dark form #message {
+  padding: 5px;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .navbar, .services-container, .subscribe, .about-us, .logo {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #email {
+    margin-bottom: 30px;
+  }
+
+  #newsletter {
+    margin-top: 30px;
+  }
+
+  .box {
+    max-width: 500px;
+  }
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
