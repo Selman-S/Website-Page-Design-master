@@ -229,7 +229,7 @@ body {
 }
 
 .active {
-  color: #a9508b;
+  color: #a9508b !important;
 }
 
 /*# sourceMappingURL=index.css.map */
